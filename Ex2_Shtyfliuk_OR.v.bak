@@ -1,0 +1,8 @@
+module Ex2_OR2(x4,x5,x6,f3);
+  input x4,x5,x6;
+  output f3;
+  wire f3;
+  assign f3 = ( ~x6 & ~x5 )|( x4 & ( x6 ^ x5);
+endmodule
+
+
